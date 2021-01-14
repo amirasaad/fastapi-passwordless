@@ -105,3 +105,6 @@ ENV/
 .vscode/
 .idea/
 out/
+
+# pypirc
+.pypirc
