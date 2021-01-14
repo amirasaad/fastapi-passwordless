@@ -7,10 +7,12 @@
     <em>Ready-to-use passwordless auth for FastAPI </em>
 </p>
 
-[![MIT licensed](https://img.shields.io/github/license/amirasaad/fastapi-passwordless)](https://raw.githubusercontent.com/amirasaad/fastapi-passwordless/main/LICENSE)
+[![MIT licensed](https://img.shields.io/badge/License-MIT-yellow.svg)](https://raw.githubusercontent.com/amirasaad/fastapi-passwordless/main/LICENSE)
+![Github Status](https://github.com/amirasaad/fastapi-passwordless/workflows/.github/workflows/python-publish.yml/badge.svg)
 [![GitHub stars](https://img.shields.io/github/stars/amirasaad/fastapi-passwordless.svg)](https://github.com/amirasaad/fastapi-passwordless/stargazers)
 [![GitHub forks](https://img.shields.io/github/forks/amirasaad/fastapi-passwordless.svg)](https://github.com/amirasaad/fastapi-passwordless/network)
 [![Downloads](https://pepy.tech/badge/fastapi_passwordless)](https://pepy.tech/project/fastapi_passwordless)
+[![codecov](https://codecov.io/gh/amirasaad/fastapi-passwordless/branch/main/graph/badge.svg?token=9OVS4DCUID)](https://codecov.io/gh/amirasaad/fastapi-passwordless)
 
 ---
 
