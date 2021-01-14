@@ -1,0 +1,10 @@
+site_name: Passwordless Auth For FastAPI
+theme:
+  name: material
+
+nav:
+  - FastApi Passwordless: index.md
+  - 🔨 Installation: install.md
+  - 🕹 Getting Started: getting-started.md
+  - Example: example.md
+  - Contirbution: contribute.md
