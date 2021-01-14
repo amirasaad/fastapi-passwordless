@@ -8,7 +8,7 @@
 </p>
 
 [![MIT licensed](https://img.shields.io/badge/License-MIT-yellow.svg)](https://raw.githubusercontent.com/amirasaad/fastapi-passwordless/main/LICENSE)
-![Github Status](https://github.com/amirasaad/fastapi-passwordless/workflows/.github/workflows/python-publish.yml/badge.svg)
+![Github Status](https://github.com/amirasaad/fastapi-passwordless/workflows/.github/workflows/build.yml/badge.svg)
 [![GitHub stars](https://img.shields.io/github/stars/amirasaad/fastapi-passwordless.svg)](https://github.com/amirasaad/fastapi-passwordless/stargazers)
 [![GitHub forks](https://img.shields.io/github/forks/amirasaad/fastapi-passwordless.svg)](https://github.com/amirasaad/fastapi-passwordless/network)
 [![Downloads](https://pepy.tech/badge/fastapi_passwordless)](https://pepy.tech/project/fastapi_passwordless)
