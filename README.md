@@ -11,7 +11,8 @@
 ![Github Status](https://github.com/amirasaad/fastapi-passwordless/workflows/.github/workflows/build.yml/badge.svg)
 [![GitHub stars](https://img.shields.io/github/stars/amirasaad/fastapi-passwordless.svg)](https://github.com/amirasaad/fastapi-passwordless/stargazers)
 [![GitHub forks](https://img.shields.io/github/forks/amirasaad/fastapi-passwordless.svg)](https://github.com/amirasaad/fastapi-passwordless/network)
-[![Downloads](https://pepy.tech/badge/fastapi_passwordless)](https://pepy.tech/project/fastapi_passwordless)
+[![PyPi version](https://pypip.in/v/fastapi_passwordless/badge.png)](https://crate.io/packages/fastapi_passwordless/)
+[![PyPi downloads](https://pypip.in/d/fastapi_passwordless/badge.png)](https://crate.io/packages/fastapi_passwordless/)
 [![codecov](https://codecov.io/gh/amirasaad/fastapi-passwordless/branch/main/graph/badge.svg?token=9OVS4DCUID)](https://codecov.io/gh/amirasaad/fastapi-passwordless)
 
 ---
