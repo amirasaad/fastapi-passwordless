@@ -1,0 +1,33 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+fastapi = ">=0.54.0,<0.64.0"
+
+[dev-packages]
+flake8 = "*"
+pytest = "*"
+requests = "*"
+isort = "*"
+mkdocs = "*"
+mkdocs-material = "*"
+black = "*"
+mypy = "*"
+codecov = "*"
+pytest-cov = "*"
+pytest-mock = "*"
+asynctest = "*"
+flit = "*"
+markdown-include = "*"
+pymdown-extensions = "*"
+bumpversion = "*"
+httpx-oauth = "*"
+uvicorn = "*"
+
+[requires]
+python_version = "3.9"
+
+[pipenv]
+allow_prereleases = true
