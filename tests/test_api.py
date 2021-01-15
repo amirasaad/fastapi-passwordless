@@ -4,9 +4,8 @@ from typing import List
 import pytest
 from fastapi import FastAPI, Header, HTTPException
 from fastapi.security import HTTPBasic
-from pydantic import EmailStr, BaseModel
+from pydantic import BaseModel, EmailStr
 from starlette.testclient import TestClient
-
 
 app = FastAPI()
 client = TestClient(app)
@@ -15,10 +14,7 @@ security = HTTPBasic()
 
 fake_secret_token = "coneofsilence"
 
-smtp = smtplib.SMTP(
-    host='127.0.0.1',
-    port=1025
-)
+smtp = smtplib.SMTP(host="127.0.0.1", port=1025)
 
 
 class EmailSchema(BaseModel):
@@ -28,9 +24,12 @@ class EmailSchema(BaseModel):
 @app.post("/api/auth/mail/")
 def auth_mail(email: EmailSchema):
     try:
-        smtp.send_message('hello', from_addr='admin@test.com', to_addrs=email.dict().get("email"))
+        smtp.sendmail(
+            from_addr="admin@test.com", to_addrs=email.dict().get("email"),
+            msg="hello"
+        )
     except smtplib.SMTPException:
-        print('error')
+        print("error")
     return {}
 
 
@@ -41,9 +40,9 @@ def secret(x_token: str = Header(...)):
     return {"secret": "Here is your secret"}
 
 
-def test_auth_by_mail(smtp):
+def test_auth_by_mail(smtp_conn):
     response = client.post("/api/auth/mail/", json={"email": ["john.doe@example.com"]})
-    smtp_response, msg = smtp.ehlo()
+    smtp_response, msg = smtp_conn.ehlo()
     assert smtp_response == 250
     print(response.json())
     assert response.status_code == 200

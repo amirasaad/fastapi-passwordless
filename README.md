@@ -28,7 +28,6 @@ Add quickly a passwordless authentication system to your [FastAPI](https://fasta
 ## Features
 * [ ] Authenticate users by email.
 * [ ] Authenticate users by phone.
-* [ ] API key option for developer's API.
 
 ## License
 
