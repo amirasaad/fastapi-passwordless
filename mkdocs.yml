@@ -2,6 +2,9 @@ site_name: Passwordless Auth For FastAPI
 theme:
   name: material
 
+repo_name: fastapi-passwordless
+repo_url: https://github.com/amirasaad/fastapi-passwordless
+
 nav:
   - FastApi Passwordless: index.md
   - 🔨 Installation: install.md
